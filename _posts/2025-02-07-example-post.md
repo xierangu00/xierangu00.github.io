@@ -4,6 +4,7 @@ title: Text and Typography
 categories: [Example]
 tags: [example]
 math: true
+date: 2025-02-07 22:11:00 -0500
 # image:
 #   path: 
 ---
