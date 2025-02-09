@@ -1,0 +1,31 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Class to Change Text Color */
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+/* Additional Styling */
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
