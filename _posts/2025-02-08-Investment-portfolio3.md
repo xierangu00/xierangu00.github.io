@@ -16,8 +16,6 @@ media_subpath: /assets/media
   - Important because investors **dislike** risk
     - Humans are **“risk averse”** (psychological trait), preferring certainty over uncertainty
 
-
-
 ## **Diversification Part 1**
 - Although the returns of different stocks are almost always positively correlated across time, the **correlation is imperfect** --> 这种不完美的相关性允许在这些股票组成的组合中降低风险。
   - Positive correlation arises because **stock returns are driven by common factors** 共同的驱动因素，如经济变化、政治事件或市场广泛的技术进步。s
