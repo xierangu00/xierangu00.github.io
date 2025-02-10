@@ -26,8 +26,8 @@ media_subpath: /assets/media
 - Stock price divided by a proxy for its worth, e.g.,
   - **Price / Earnings** --> P/E 反映了投资者愿意为每 1 美元的收益支付多少倍的价格
     - Forward or trailing earnings
-    - 前瞻 P/E (**Forward P/E**): 以未来预测的收益计算
-    - 滞后 P/E (**Trailing P/E**): 以过去 12 个月的收益计算
+      - 前瞻 P/E (**Forward P/E**): 以未来预测的收益计算
+      - 滞后 P/E (**Trailing P/E**): 以过去 12 个月的收益计算
     - High P/E: 表明投资者对公司未来增长预期较高，可能代表成长型公司（如科技股）
     - Low P/E：可能表示市场对公司增长缺乏信心，或股票被低估，通常出现在价值股中
   - **Price / Book Value** --> 反映股票价格相对于公司净资产（股东权益）的溢价或折价
@@ -67,18 +67,15 @@ media_subpath: /assets/media
 - ![Graph](ValueEarnings.png)
   - 这张表格显示了按照 Earnings-to-Price (E/P) Ratio 进行分组后的股票回报率，分别采用了 EW（Equal-Weighted, 等权重） 和 VW（Value-Weighted, 市值加权） 的方式计算收益
   - E/P 越高，收益越高
+
     - EW 方式：低 E/P 组的收益率为 13.17%，而高 E/P 组的收益率为 22.09%，表现出一个明显的正相关趋势
     - VW 方式：低 E/P 组的收益率为 12.40%，而高 E/P 组的收益率为 18.22%，趋势相同但收益率稍低
   - 等权重（EW）收益比市值加权（VW）更高
+
     - 在每个分组中，EW 收益率都高于 VW，这表明在小市值股票上，E/P 选股策略可能更有效（因为等权重方法会赋予小市值股票更大的权重）
     - 说明小市值高 E/P 股票的收益更高，而大市值股票的收益较低，使得 VW 的整体收益偏低
-  - 低 E/P 组表现较差
-    - EW = 13.17%，VW = 12.40%，说明低 E/P 股票的收益相对较低
-    - 这与价值投资理论一致，即 低 E/P（高 P/E）股票往往是成长股，价格昂贵，但未来回报不一定高
-  - 高 E/P 组收益最高
-    - EW = 22.09%，VW = 18.22%，显示高 E/P（低 P/E）股票的收益最高
-    - 这支持价值投资策略，即 低估值股票（高 E/P，低 P/E）在长期内可能获得更好的回报
   - 结论
+
     - 价值投资策略有效：高 E/P（低 P/E）股票在历史回测中表现较好，符合价值投资逻辑。
     - 小市值股票收益更高：EW（等权重）收益普遍高于 VW（市值加权），表明高 E/P 策略在小市值股票上表现更好。
     - 成长股（低 E/P）回报较低：低 E/P 组的收益最低，说明高估值的成长股可能面临回报下降的风险。
@@ -130,7 +127,7 @@ media_subpath: /assets/media
 
 > #### Answer:
 >
-> - **8.92%**
+> - **4.46%**
 >
 > #### Explanation
 >
@@ -138,17 +135,17 @@ media_subpath: /assets/media
 >   - Goes long (buys) the top 10% of E/P stocks.
 >   - Goes short (sells) the bottom 10% of E/P stocks.
 >   - Uses EW (Equally Weighted) returns.
->   - Assumes no margin (leverage ratio = 1).
+>   - Assumes no margin (leverage ratio = 1). 题目中“无杠杆”指总头寸限制为100%，则需将净收益除以2
 > - Step 1: Identify the Relevant Returns
 >   - From the E/P table, we extract the EW (Equally Weighted) returns:
 >   - High E/P (Top 10%): 22.09% (this is the long portfolio return).
 >   - Low E/P (Bottom 10%): 13.17% (this is the short portfolio return).
 > - Step 2: Calculate the Long-Short Return
 >   - The return of a long-short portfolio is calculated as:
->   - $$
->     Return = Return of Long Portfolio − Return of Short Portfolio = 22.09% − 13.17% =8.92%
->
->     $$
+>   - Return = Return of Long Portfolio − Return of Short Portfolio
+>     = 22.09% − 13.17%
+>     = 8.92% / 2
+>     = 4.46%
 
 > ## **Additional Questions**
 >
@@ -157,13 +154,17 @@ media_subpath: /assets/media
 > - *(based on slide **“Value: Earnings / Price”**)*
 > - **VW returns, leverage ratio = 1, long-only top 10%**
 >   - Return = _18.22%_
->   - 这个数值直接来自表格中VW 列 "High E/P" 的数据
 > - **VW returns, leverage ratio = 2, long top 10%, short bottom 10%**
 >   - Return = 18.22% - 12.40% = _5.82%_
+  > - Leverage ratio = 2：这里的 杠杆是指总投资规模翻倍，即 100% 资金用于 Long，100% 资金用于 Short。但计算回报时，不需要除以 2，因为 L/S 本身就是 100% Long + 100% Short，不需要分配资金。
 > - **VW returns, leverage ratio = 1, long top 10%, short bottom 10%**
 >   - Return = (18.22% - 12.40%) / 2 = _2.91%_
+  > - 仍然是 多空 (L/S) 策略，但是这次 杠杆比率 = 1。因为 多头和空头的仓位各占 50%，所以 最终收益除以 2。
 > - **VW returns, leverage ratio = 1, long-only top 20%**
 >   - Return = (18.22% + 17.15%) / 2 = _17.685%_
+  > - 因为是 仅多头，所以 计算的是两个多头组合的平均值，即除以 2
+> - **VW returns, leverage ratio = 2, long-only top 20%**
+>   - Return = 18.22% + 17.15% = _35.37%_
 
 ## **Book/Market**
 
@@ -222,14 +223,9 @@ media_subpath: /assets/media
 >
 > ### Return Calculation
 >
-> - **Return = (Small Cap Return - Large Cap Return) × Leverage Ratio  = (25.47% - 11.45%) × 2 = 28.04%**
+> - **Return = (Small Cap Return - Large Cap Return) × Leverage Ratio  = 25.47% - 11.45% = 14.02%**
 
-> - Thus, the estimated historical performance is **28.04%**.
->
-> ### Explanation
->
-> - 杠杆比率 = 2 表示投资者管理的 资金规模是自己的 2 倍，也就是说，投资组合的总回报应该放大 2 倍。
-> - 如果杠杆比率是 0.5，我们才会 乘以 0.5（或等价于除以 2），表示投资规模只有原来的 一半。
+> - Thus, the estimated historical performance is **14.02%**.
 
 ## **Small Cap Features**
 
