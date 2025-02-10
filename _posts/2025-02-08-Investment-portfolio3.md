@@ -23,13 +23,7 @@ media_subpath: /assets/media
   - Positive correlation arises because **stock returns are driven by common factors** 共同的驱动因素，如经济变化、政治事件或市场广泛的技术进步。
     - For instance, when the stock market moves up, individual stock prices tend to move up
 - **Correlation(ρ)** ranges from **-1 to +1**
-  - 股票之间的相关性可以从-1（完全负相关）到+1（完全正相关）变化
--
 
-$$
-R^2 = \rho^2
-
-$$
 
 ## **Diversification Part 2**
 
@@ -214,4 +208,4 @@ $$
       >
   - An **equal-weighted portfolio** holds the **same $ amount** in the portfolio manager’s favorite stocks and less-favorite stocks
   - 虽然再平衡可以帮助保持多样化，但它也引出了一个问题——如何识别和选择最佳股票。例如，如果你决定从30只股票的多样化投资组合中，集中到你最喜欢的10只，而卖出其他20只，这是否真的是一个明智的决定？你有足够的信心和数据支持这10只股票将长期跑赢其他的吗？这种策略是否值得牺牲一部分多样化的保护？
-- Anecdotally, some extremely wealthy individuals (e.g., Warren Buffet) became wealthy by holding a concentrated portfolio of a small number of stocks that became blockbusters 从历史上看，像沃伦·巴菲特这样的极度富有的个人通过持有一小部分可能成为市场领头羊的股票而积累了巨大财富 --> 这表明，高度集中的投资策略在某些情况下可以非常成功，但这需要极高的市场洞察力和选择能力。
+- Anecdotally, some extremely wealthy individuals (e.g., Warren Buffet) became wealthy by holding a concentrated portfolio of a small number of stocks that became blockbusters 从历史上看，像沃伦·巴菲特这样的极度富有的个人通过持有一小部分可能成为市场领头羊的股票而积累了巨大财富。这表明，高度集中的投资策略在某些情况下可以非常成功，但这需要极高的市场洞察力和选择能力。
