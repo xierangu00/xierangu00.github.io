@@ -62,14 +62,13 @@ $$
   - 蓝色曲线（Efficient Frontier）：代表仅由风险资产构成的投资组合，其上的点是有效投资组合
   - 散点图：代表不同股票或资产的风险-收益组合，每个点对应某只股票或资产
   - 任何位于**资本市场线**上的投资组合都是最优的，意味着投资者可以通过杠杆或借贷调整自己的风险偏好，选择合适的点进行投资
-  - 若投资者是**风险厌恶者**，可以选择靠近无风险资产的一侧（低波动率）
-  - 若投资者是**风险偏好者**，可以选择市场组合以上的投资（即借钱投资）
-- The **capital market line (CML)** depicts the **trade-off** between **portfolio risk** and **return for portfolios containing both the risk-free and risky securities**
-- CML 代表了同时包含无风险资产和风险资产的最优投资组合
-  - The point on the CML that intersects the y-axis represents the **risk-free asset**
+    - 若投资者是**风险厌恶者**，可以选择靠近无风险资产的一侧（低波动率）
+    - 若投资者是**风险偏好者**，可以选择市场组合以上的投资（即借钱投资）
+- The **capital market line (CML)** depicts the **trade-off** between **portfolio risk** and **return for portfolios containing both the risk-free and risky securities** --> CML 代表了同时包含无风险资产和风险资产的最优投资组合
+- - The point on the CML that intersects the y-axis represents the **risk-free asset**
     - 与y轴的交点：代表无风险资产，通常是短期政府债券，如美国国债。该点的收益率是无风险利率
   - The point located at the **tangency point** of the efficient frontier represents the **optimal risky portfolio**, which theory suggests is the **market portfolio**
-    - 与有效前沿（Efficient Frontier）的切点：代表最优风险投资组合（Optimal Risky Portfolio），理论上，这个投资组合就是市场组合（Market Portfolio），因为它在所有可能的风险资产组合中提供了最高的夏普比率（Sharpe Ratio）
+    - 与有效前沿（Efficient Frontier）的切点：代表**最优风险投资组合（Optimal Risky Portfolio）**，理论上，这个投资组合就是市场组合（Market Portfolio），因为它在所有可能的风险资产组合中提供了最高的夏普比率（Sharpe Ratio）
   - The CML shows the portfolios (combining both risk free and risky securities) with the highest return for a given level of risk
     - **All portfolios along the CML, including the optimal risky portfolio, have the highest Sharpe ratio**
 - ![Graph](optimal risky portfolio.png)
@@ -84,8 +83,7 @@ $$
 
 ## **Minimum Variance**
 
-- The minimum variance portfolio (MVP) is the portfolio on the efficient frontier with the **lowest volatility**
-- 最小方差投资组合（MVP，Minimum Variance Portfolio） 是**有效前沿（Efficient Frontier）**上波动率（风险）最低的投资组合
+- The minimum variance portfolio (MVP) is the portfolio on **the efficient frontier** with the **lowest volatility** --> 最小方差投资组合（MVP，Minimum Variance Portfolio） 是有效前沿（Efficient Frontier）上**波动率（风险）最低**的投资组合
 - ![Graph](Minimum Variance.png)
   - MVP 位于有效前沿上，并且是风险最小的投资组合
     - 有效前沿上的所有投资组合都是最优的，因为在相同风险水平下，它们的收益最大。而在这些最优组合中，MVP 是波动性最低的组合。
@@ -108,10 +106,10 @@ $$
   - 无差异曲线的形状反映了投资者的风险偏好
 
   > - reminder：
-  > - 投资者会选择位于自身无差异曲线上的最优投资组合，该组合提供了其所能接受的最佳风险-回报比率
-  > - 资本市场线 (CML, Capital Market Line)：红色线，代表包含无风险资产的最优投资组合
-  > - 有效前沿 (Efficient Frontier)：蓝色曲线，代表最优风险资产组合，不包含无风险资产
-  > - 无差异曲线 (Indifference Curve)：绿色曲线，代表投资者的个人偏好，最优投资组合是其无差异曲线与资本市场线的切点
+  >   - 投资者会选择位于自身无差异曲线上的最优投资组合，该组合提供了其所能接受的最佳风险-回报比率
+  >   - 资本市场线 (CML, Capital Market Line)：红色线，代表包含无风险资产的最优投资组合
+  >   - 有效前沿 (Efficient Frontier)：蓝色曲线，代表最优风险资产组合，不包含无风险资产
+  >   - 无差异曲线 (Indifference Curve)：绿色曲线，代表投资者的个人偏好，最优投资组合是其无差异曲线与资本市场线的切点
   >
 
 ## **Optimal Complete Portfolio**最优完整投资组合
@@ -121,7 +119,7 @@ $$
   - An investor’s **indifference curve** determines the mix between the optimal risky portfolio and the risk-free asset
     - 高风险厌恶投资者：会选择更高比例的无风险资产，减少风险暴露。
     - 低风险厌恶投资者：会选择更高比例的最优风险投资组合，甚至可能进行杠杆投资（借入资金投资）。
-- Graphically, it is represented as the **intersection** between **the capital market line** and **the indifference curve**
+- Graphically, it is represented as the **intersection** between **the capital market line** and **the indifference curve** --> **CML 和 IC 的交点**
 - When investors have different risk preferences (e.g., one investor is more risk averse than another), their indifference curves will **differ**, leading to different optimal complete portfolios
 - ![Graph](Optimal Complete Portfolio.png)
   - 不同投资者的影响：
