@@ -6,7 +6,7 @@ tags: [note]
 math: true
 date: 2025-02-11   01:12:00 -0500
 # image:
-#   path:
+# path:
 media_subpath: /assets/media
 ---
 # **Introduction to M&A investments**
