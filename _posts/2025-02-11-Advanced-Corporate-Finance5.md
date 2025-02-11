@@ -204,4 +204,4 @@ $$
 > - An analyst collected the following comparable company data
 > - Using a multiples approach to valuation, estimate the price per share that should be paid to acquire JUNO, including any takeover premium (consider both P/E and P/B)
 >   > - ![Example](Ex1.png)
->   > - ![Example](Ex2.png)
+>   > - ![Example](EX2.png)
