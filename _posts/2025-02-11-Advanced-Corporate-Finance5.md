@@ -1,5 +1,5 @@
 ---
-title: Advanced Corporate Finance - M&A
+title: Advanced Corporate Finance - MandA
 description: Course review for Spring course in MAF program at Emory.
 categories: [Finance,Course]
 tags: [note]
