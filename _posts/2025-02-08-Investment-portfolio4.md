@@ -1,7 +1,7 @@
 ---
 title: Investment and Portfolio - The Efficient Frontier
 description: Course review for Spring course in MAF program at Emory.
-categories: [Finance,Course]
+categories: [Course,Investment Portfolio]
 tags: [note]
 math: true
 date: 2025-02-08   22:41:00 -0500

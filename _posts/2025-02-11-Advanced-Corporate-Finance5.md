@@ -1,7 +1,7 @@
 ---
 title: Advanced Corporate Finance - M&A
 description: Course review for Spring course in MAF program at Emory.
-categories: [Finance,Course]
+categories: [Course,Advanced Corporate Finance]
 tags: [note]
 math: true
 date: 2025-02-11   01:12:00 -0500

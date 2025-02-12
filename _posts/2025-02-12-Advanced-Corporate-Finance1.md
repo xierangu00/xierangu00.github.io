@@ -1,7 +1,7 @@
 ---
 title: Advanced Corporate Finance - Introduction & investment decision rules
 description: Course review for Spring course in MAF program at Emory.
-categories: [Finance,Course]
+categories: [Course,Advanced Corporate Finance]
 tags: [note]
 math: true
 date: 2025-02-12   14:10:00 -0500
