@@ -164,8 +164,9 @@ $$
 
 **What is the unlevered cost of equity?**
 
-- **E**: $1 \text{ million shares} \times \$50/\text{share} = \$50 \text{ million}$  
-- **D**: $0.90 \times 30 \text{ million} = 27 \text{ million} \Rightarrow \frac{D}{E} = \frac{27}{50} = 54\%$  
+- **E**: $1 \text{ million shares} \times \$50/\text{share} = \$50 \text{ million}$
+- **D**: $0.90 \times \$30 \text{ million} = \$27 \text{ million} \Rightarrow \frac{D}{E} = \frac{27}{50} = 54\%$
+
 
 $$
 r_E = r_U + (r_U - r_D) \left( \frac{D}{E} \right) (1 - \tau_c)
