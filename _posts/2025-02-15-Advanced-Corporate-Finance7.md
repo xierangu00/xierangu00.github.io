@@ -1,5 +1,5 @@
 ---
-title: Advanced Corporate Finance - Levered and unlevered cost of capital
+title: Advanced Corporate Finance -  Adjusted Present Value (APV)
 description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Advanced Corporate Finance]
 tags: [note]
