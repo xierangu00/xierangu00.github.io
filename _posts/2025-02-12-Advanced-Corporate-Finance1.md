@@ -245,12 +245,10 @@ Accept projects with a greater IRR than the opportunity cost of capital.
 - **Project A**:
   $$
   NPV_A = 0 = -2,000 + \frac{1,000}{(1+IRR_A)^1} + \frac{800}{(1+IRR_A)^2} + \frac{600}{(1+IRR_A)^3} + \frac{200}{(1+IRR_A)^4} \rightarrow IRR_A = 14.49\%
-
   $$
 - **Project B**:
   $$
   NPV_B = 0 = -2,000 + \frac{200}{(1+IRR_B)^1} + \frac{600}{(1+IRR_B)^2} + \frac{800}{(1+IRR_B)^3} + \frac{1,200}{(1+IRR_B)^4} \rightarrow IRR_B = 11.79\%
-
   $$
 - These calculations find the discount rate at which the present value of the cash flows, resulting in a net present value of zero.通过这些计算可以找到现金流现值的贴现率，从而得出净现值为零
 - The IRR for each project represents the **break-even rate of return**, above which an investment would yield a positive return.每个项目的内部收益率代表收支平衡的收益率，超过这个收益率，投资就会产生正收益。
