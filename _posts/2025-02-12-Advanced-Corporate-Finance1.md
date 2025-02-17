@@ -185,12 +185,10 @@ The NPV calculations for two projects are as follows:
 - **Project A**:
   $$
   NPV = -2,000 + \frac{1,000}{(1+0.10)^1} + \frac{800}{(1+0.10)^2} + \frac{600}{(1+0.10)^3} + \frac{200}{(1+0.10)^4} = \$157.6
-
   $$
 - **Project B**:
   $$
   NPV = -2,000 + \frac{200}{(1+0.10)^1} + \frac{600}{(1+0.10)^2} + \frac{800}{(1+0.10)^3} + \frac{1,200}{(1+0.10)^4} = \$98.35
-
   $$
 
 Would you accept the projects? If you had to choose only one project, which would you choose and why?
