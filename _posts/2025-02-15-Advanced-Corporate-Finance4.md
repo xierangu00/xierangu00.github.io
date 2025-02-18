@@ -230,22 +230,18 @@ Data used as of January 2021.Source: [NYU Stern](https://pages.stern.nyu.edu/~ad
 - **Value of a stable-growth firm’s assets** can be written as:
   $$
   EV_o = \frac{CF_1}{WACC - g}
-
   $$
 - **Best estimate** of cash flows:
   $$
   EBITDA \times (1 - \tau_c) + (Depr \times \tau_c) - Capex - \Delta NWC
-
   $$
 - **Divide both sides by EBITDA**:
   $$
   \frac{EV}{EBITDA} = \frac{(1 - \tau_c)}{WACC - g} + \frac{(Depr \times \tau_c) - Capex - \Delta NWC}{(EBITDA)(WACC - g)}
-
   $$
 - **Reinvestment in firm is**:
   $$
   Capex - Depr + \Delta NWC
-
   $$
 
 ## **EV/EBITDA Propositions**
@@ -265,9 +261,9 @@ Data used as of January 2021.Source: [NYU Stern](https://pages.stern.nyu.edu/~ad
 
 - Calculate the EV/EBITDA for a firm:
 
-  - The firm has $100$ million shares outstanding, with shares trading for $\$12.50$.
-  - The firm has debt of $\$500$ million, cash of $\$200$ million, and short-term investments that can be viewed as cash equivalents of $\$50$ million.
-  - The firm’s EBITDA is $\$130$ million.
+  - The firm has $100$ million shares outstanding, with shares trading for $12.50$.
+  - The firm has debt of $500$ million, cash of $200$ million, and short-term investments that can be viewed as cash equivalents of $50$ million.
+  - The firm’s EBITDA is $130$ million.
 - **Enterprise value calculation**:
 
   $$
