@@ -1,16 +1,14 @@
+---
 title: Advanced Corporate Finance - NPV & IRR applications, cash flows & WACC
 description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Advanced Corporate Finance]
 tags: [note]
 math: true
 date: 2025-02-15   19:21:00 -0500
-
 # image:
-
 # path:
-
 media_subpath: /assets/media
-----------------------------
+---
 
 # **NVP & IRR in practice**
 
