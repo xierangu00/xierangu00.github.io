@@ -381,12 +381,12 @@ Data used as of January 2021.Source: [NYU Stern](https://pages.stern.nyu.edu/~ad
 >   - UA’s EBITDA is $0.5B; AA’s EBITDA is $0.75B.
 >   - Delta’s sales are $2B; Delta’s EBITDA is $0.75B.
 > - **Multiples using sales:**
->   - UA: $ EV/Sales = \frac{1 - 0}{1.5} = 0.67 $
->   - AA: $ EV/Sales = \frac{2.2 - 0.2}{1.25} = 1.6 $
+>   - UA: $EV/Sales = \frac{1 - 0}{1.5} = 0.67$
+>   - AA: $EV/Sales = \frac{2.2 - 0.2}{1.25} = 1.6$
 >   - **Average = 1.13**
 > - **Multiples using EBITDA:**
->   - UA: $ EV/EBITDA = \frac{1 - 0}{0.5} = 2 $
->   - AA: $ EV/EBITDA = \frac{2.2 - 0.2}{0.75} = 2.67 $
+>   - UA: $EV/EBITDA = \frac{1 - 0}{0.5} = 2$
+>   - AA: $EV/EBITDA = \frac{2.2 - 0.2}{0.75} = 2.67$
 >   - **Average = 2.33**
 > - **Step 4: Get a valuation of Delta**
 >   - **Using "sales" multiple**:
