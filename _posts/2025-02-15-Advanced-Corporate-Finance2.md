@@ -533,12 +533,10 @@ Even if a project has a **positive NPV and an attractive IRR**, management may c
     - Arithmetic mean:
       $$
       {am} = \frac{a_1 + a_2 + ... + a_n}{n}
-
       $$
     - Geometric mean:
       $$
       {gm} = \sqrt[n]{a_1 \times a_2 \times ... \times a_n}
-
       $$
 
   * **几何平均值通常小于算术平均值** ，因为几何平均考虑了收益的波动性，避免了过高估计
