@@ -4,7 +4,7 @@ description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Advanced Corporate Finance]
 tags: [note]
 math: true
-date: 2025-02-15   23:20:00 -0500
+date: 2025-02-15   23:10:00 -0500
 # image:
 # path:
 media_subpath: /assets/media
