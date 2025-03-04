@@ -116,7 +116,7 @@ media_subpath: /assets/media
   - Companies issue stock when they perceive their stock price to be high relative to fundamentals
   - High net issuance is associated with relatively low future performance
   - 公司通常在认为其股票相对于基本面高估时发行更多股票，这是筹集资本的好时机。高净发行量与较低的未来表现相关，可能由于稀释和可能是内部人士对过高估值的信号。
-  - ![Graph](Net Share Issurance.png)
+  - ![Graph](Net Share Issuance.png.png)
     - 该图表根据净股票发行量的不同水平列出回报。结果显示，净发行量较低的公司表现更好，再次强调高发行量可能是一个负面信号。
 
 
