@@ -1,5 +1,5 @@
 ---
-title: Investment and Portfolio - Types of Stock Positions
+title: Investment and Portfolio - Active Stock Selection II
 description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Investment Portfolio]
 tags: [note]
