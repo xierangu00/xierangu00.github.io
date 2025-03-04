@@ -7,6 +7,7 @@ math: true
 date: 2025-03-02 18:06:00 -0500
 # image:
 #   path:
+media_subpath: /assets/media
 ---
 # Active Stock Selection II
 
