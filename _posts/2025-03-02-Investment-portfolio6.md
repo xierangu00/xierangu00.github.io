@@ -12,7 +12,6 @@ media_subpath: /assets/media
 # Active Stock Selection II
 
 ## Technical Analysis vs. Momentum
-
 * the most-used signal (by far) in technical analysis is a **stock’s price trend**
 * **Buy stocks trending up** and **sell or short stocks trending down**
 * Trend is closely related to price momentum
