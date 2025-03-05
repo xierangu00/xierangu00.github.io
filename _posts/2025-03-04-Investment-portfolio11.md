@@ -1,3 +1,4 @@
+---
 title: Investment and Portfolio - Money Management Industry
 description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Investment Portfolio]
@@ -6,11 +7,9 @@ math: true
 date: 2025-03-04 22:06:00 -0500
 
 # image:
-
 # path:
-
 media_subpath: /assets/media
-----------------------------
+---
 
 # Money Management Industry
 
@@ -92,8 +91,7 @@ media_subpath: /assets/media
 ---
 
 ## Carhart (1997)
-
-* ![Graph](carhart.png)
+![Graph](carhart.png)
   Rank funds based on return during year t
 * Compute excess return and alpha of funds during the following year t +
 * Performance during year t + 1:
