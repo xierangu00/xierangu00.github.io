@@ -87,7 +87,7 @@ where:
 
 ## Maximum Drawdown
 
-![Graph](maxdrawdown.png)
+![Graph](maxdrawdown.jpg)
 
 - Represents the absolute value of the worst possible return for a buy followed by a sell
 
@@ -272,7 +272,7 @@ A $50 million portfolio with a one-day VaR of $8 million at the 95% confidence l
 
 ##### 图表解释
 
-![Graph](VaR.png)
+![Graph](VaR.gif)
 
 随附的图形直观展示了VaR：
 
