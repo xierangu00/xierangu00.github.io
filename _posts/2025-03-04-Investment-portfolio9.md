@@ -34,11 +34,11 @@ Returns can be calculated using different methods depending on the requirement:
 
 - **Arithmetic Average**:
 
-  - Formula: $r_a = \frac{\sum_{t=1}^{N} r_t}{N}$
+  - Formula: $ r_a = \frac{\sum_{t=1}^{N} r_t}{N} $
   - Example: If the returns over 12 months are 2%, 3%, -1%, ..., the arithmetic average return is calculated by summing all monthly returns and dividing by 12.
 - **Geometric Average**:
 
-  - Formula: $r_g = \left(\prod_{t=1}^{N} (1 + r_t)\right)^{\frac{1}{N}} - 1$
+  - Formula: $ r_g = \left(\prod_{t=1}^{N} (1 + r_t)\right)^{\frac{1}{N}} - 1 $
   - This method accounts for the compounding effects over time and is usually less than the arithmetic average unless all returns are equal.
 
 ## Returns

@@ -122,10 +122,7 @@ Let's manually identify the highest visible peak and the lowest subsequent troug
 
 * **Calculate the Maximum Drawdown** :
 
-$$
-\text{Max Drawdown} = \left( \frac{\text{237.23} - \text{153.87}}{\text{237.23}} \right) \times 100\%
-
-$$
+$$ \text{Max Drawdown} = \left( \frac{\text{237.23} - \text{153.87}}{\text{237.23}} \right) \times 100\% $$
 
 ##### Conclusion:
 
@@ -165,10 +162,7 @@ The maximum drawdown, based on this approximation and the visible data points, w
 - Ratio of return to max drawdown
   **收益与最大回撤的比率**
 - Formula 公式：
-  $$
-  \text{Calmar Ratio} = \frac{\text{Geometric Annualized Return}}{\text{Max Drawdown}}
-
-  $$
+  $$ \text{Calmar Ratio} = \frac{\text{Geometric Annualized Return}}{\text{Max Drawdown}} $$
 - **计算方法：过去36个月的几何年化收益率 / 同期最大回撤**
 
 ##### Explanation of the Calmar Ratio
@@ -197,18 +191,12 @@ To calculate the Calmar Ratio for the graph provided, follow these steps:
 
 1. **Identify the Maximum Drawdown** : Look for the largest peak-to-trough decline within the period displayed. This can be done visually or by calculating the percentage drop from each high to subsequent lows.
 2. **Calculate the Annualized Return** : Calculate the Compound Annual Growth Rate (CAGR) for the entire period. This can be done using the formula:
-   $$
-   \text{CAGR} = \left(\frac{\text{End Value}}{\text{Start Value}}\right)^{\frac{1}{\text{Number of Years}}} - 1
-
-   $$
+   $$ \text{CAGR} = \left(\frac{\text{End Value}}{\text{Start Value}}\right)^{\frac{1}{\text{Number of Years}}} - 1 $$
 
 Given the plot shows values from December 2019 to December 2022, and assuming the values represent some form of financial metric that can be measured in monetary terms (like fund value), let's say the value in December 2019 is 100 and in December 2022 is 170. This can be visually estimated based on the graph. The time period is 3 years.
 
 3. **Calculate the Calmar Ratio** : Divide the annualized return by the maximum drawdown (both in absolute values). The formula for the Calmar Ratio is:
-   $$
-   \text{Calmar Ratio} = \frac{\text{CAGR}}{\text{Maximum Drawdown}}
-
-   $$
+   $$ \text{Calmar Ratio} = \frac{\text{CAGR}}{\text{Maximum Drawdown}} $$
 
 ##### Example Calculation
 
@@ -218,25 +206,16 @@ Given the plot shows values from December 2019 to December 2022, and assuming th
 
 **Step 1: Calculate CAGR**
 
-$$
-\text{CAGR} = \left(\frac{170}{100}\right)^{\frac{1}{3}} - 1 \approx 0.1974 \text{ or } 19.74\%
-
-$$
+$$ \text{CAGR} = \left(\frac{170}{100}\right)^{\frac{1}{3}} - 1 \approx 0.1974 \text{ or } 19.74\% $$
 
 **Step 2: Estimate Maximum Drawdown**
 
 * Assume the maximum drawdown, visually estimating from the graph, occurs from about 150 down to 110 between February 2021 and July 2021.
-  $$
-  \text{Maximum Drawdown} = \frac{150 - 110}{150} = \frac{40}{150} \approx 0.2667 \text{ or } 26.67\%
-
-  $$
+  $$ \text{Maximum Drawdown} = \frac{150 - 110}{150} = \frac{40}{150} \approx 0.2667 \text{ or } 26.67\% $$
 
 **Step 3: Calculate Calmar Ratio**
 
-$$
-\text{Calmar Ratio} = \frac{0.1974}{0.2667} \approx 0.74
-
-$$
+$$ \text{Calmar Ratio} = \frac{0.1974}{0.2667} \approx 0.74 $$
 
 ## Value at Risk (VaR) 在险价值
 
@@ -261,13 +240,8 @@ A $50 million portfolio with a one-day VaR of $8 million at the 95% confidence l
 - This means there is a **5% probability** that the portfolio’s value will decrease by **$8 million or more** in one day.
   **意味着有5%的可能性，该组合在一天内损失800万美元或更多。**
 - Calculation:
-
-  $$
-  -8M = 1.645 \times \sigma
-
-  $$
+  $$ -8M = 1.645 \times \sigma $$
 - With a probability of 95%, the value of the portfolio will decrease by $8 million or less during one day
-
   - $8 million is 1.645 standard deviations below the mean daily dollar return, though VaR is typically expressed as an absolute value, e.g., a VaR of $8 million
 
 ##### 图表解释
