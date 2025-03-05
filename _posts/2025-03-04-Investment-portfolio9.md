@@ -78,7 +78,7 @@ Annualizing via geometric average (rather than arithmetic average) is convention
 
 When total return `r_T` encompasses N months, use:
 
-- $ r_{\text{annualized}} = (1 + r_T)^{\frac{12}{N}} - 1 $
+- $r_{\text{annualized}} = (1 + r_T)^{\frac{12}{N}} - 1$
 
 For example, if total return across 2 years (or 24 months) is 20%:
 
@@ -134,37 +134,22 @@ In performance reports, returns are shown in several ways:
 ## Annualizing Standard Deviation (年化标准差)
 
 - Monthly: With 12 observations per year, the annualized standard deviation is calculated by:
-  $$
-  \sigma_{\text{annualized}} = \sqrt{12} \times \sigma_m
-
-  $$
+  $$ \sigma_{\text{annualized}} = \sqrt{12} \times \sigma_m $$
 - Daily: With approximately 250 trading days per year, it is calculated by:
-  $$
-  \sigma_{\text{annualized}} = \sqrt{250} \times \sigma_d
-
-  $$
+  $$\sigma_{\text{annualized}} = \sqrt{250} \times \sigma_d $$
 
 ## Sharpe Ratio (夏普比率)
 
 - This ratio is a measure of excess return per unit of risk and is annualized for comparison across different timeframes:
 - annualize Monthly:
-  $$
-  S_{p,\text{annualized}} = \sqrt{12} \times S_{p,m}
-
-  $$
+  $$ S_{p,\text{annualized}} = \sqrt{12} \times S_{p,m} $$
 - annualize Daily:
-  $$
-  S_{p,\text{annualized}} = \sqrt{250} \times S_{p,d}
-
-  $$
+  $$ S_{p,\text{annualized}} = \sqrt{250} \times S_{p,d} $$
 
 ## Regression Statistics (回归统计)
 
 - CAPM model is used to determine the alpha and beta of a portfolio relative to a benchmark:
-  $$
-  r_p - r_f = \alpha_p + \beta_p (r_m - r_f) + \epsilon
-
-  $$
+  $$ r_p - r_f = \alpha_p + \beta_p (r_m - r_f) + \epsilon $$
 - Alpha and beta are annualized for consistency over different time periods.
 - To annualize alpha
   - Monthly (N = 12): $a_{p,\text{annualized}} = {12} \times a_{p,m}$
@@ -174,19 +159,13 @@ In performance reports, returns are shown in several ways:
 
 - This ratio measures returns relative to downside risk, differing from Sharpe by only considering negative volatility:
 
-$$
-\text{Sortino}_p = \frac{r_p - \text{MAR}}{\text{downside risk}}
-
-$$
+$$ \text{Sortino}_p = \frac{r_p - \text{MAR}}{\text{downside risk}}$$
 
 - Ratio of reward to downside risk
 - Downside risk = downside semi-variance
 - For N returns below the MAR, compute：
 
-$$
-\text{downside risk} = \sqrt{\frac{1}{N} \sum_{i=1}^N (r_{pi} - \text{MAR})^2 \text{ for } r_{pi} < \text{MAR}}
-
-$$
+$$ \text{downside risk} = \sqrt{\frac{1}{N} \sum_{i=1}^N (r_{pi} - \text{MAR})^2 \text{ for } r_{pi} < \text{MAR}} $$
 
 - For **returns below a threshold (MAR)**, the downside risk is calculated and used in the Sortino ratio formula.
 
@@ -194,7 +173,7 @@ $$
 
 - Performance reports may detail the number and types of holdings, often visualized using tools like the Morningstar style box.
 - Morningstar style box:
-  ![Graph](holding.png)
+![Graph](holding.png)
   - Number of holdings
   - Top-10 holdings
   - Commonly reported for mutual funds, but not commonly reported for hedge funds
@@ -216,16 +195,13 @@ $$
   2. the return of stocks in those industries vs. the index return of those industries
 - The basic formula used is:
 
-  $$
-  \text{Performance} = \sum \left( w_{\text{active},i} - w_{\text{benchmark},i} \right) \left( r_{\text{industry},i} - r_{\text{benchmark}} \right) + \sum w_{\text{active},i} \left( r_{\text{active},i} - r_{\text{industry},i} \right)
-
-  $$
+  $$ \text{Performance} = \sum \left( w_{\text{active},i} - w_{\text{benchmark},i} \right) \left( r_{\text{industry},i} - r_{\text{benchmark}} \right) + \sum w_{\text{active},i} \left( r_{\text{active},i} - r_{\text{industry},i} \right) $$
 
   This sums the industry and stock selection skills to determine total performance.
 
 ## Attribution Analysis Example
 
-![example](ex222.png)## Question
+![example](ex222.png)
 
 ### Question:
 Which of the following changes in the fund's industry weights would result in a negative industry selection for industry A?
@@ -254,6 +230,7 @@ The industry selection effect becomes negative when the fund's weight in an indu
 
 所以，正确的答案是选项中的“A's weight < 0.20”。这表示如果行业A的基金权重降低到低于0.20，行业选择贡献将变为负。
 
+---
 ## Factor Analysis因子分析
 - **Factor Analysis**
   - When holdings data are not available (e.g., for hedge funds), factor analysis can provide insight into a portfolio's return exposures.当持有数据不可用时（例如，对于对冲基金），因子分析可以提供对投资组合回报暴露的见解
@@ -272,6 +249,7 @@ The industry selection effect becomes negative when the fund's weight in an indu
 - **Answer:** Without specific data on the "Mystery Fund's" investment focus and market capitalization range, it's not possible to accurately place it in a style box. A factor analysis could reveal whether it leans more towards value or growth and the size of the companies it invests in, but without that data, we cannot specify its location in the style box.
 如果没有“神秘基金”的投资重点和市值范围的具体数据，我们无法准确地将其定位在风格框中。因子分析可以揭示它是更倾向于价值还是增长，以及它投资的公司的大小，但没有那些数据，我们无法确定其在风格框中的位置。
 
+---
 
 ## Portfolio Turnover投资组合周转率
 - **Portfolio Turnover**
@@ -279,6 +257,7 @@ The industry selection effect becomes negative when the fund's weight in an indu
   - A 100% turnover implies the portfolio completely changes, on average, annually.100%的周转率意味着投资组合平均每年完全更换一次
     - For example, holdings as of December 31 are completely sold and replaced by the next December 31.例如，12月31日的持仓到下一个12月31日前会被完全卖出并替换
 
+---
 
 ## Fund Stats
 - **Fund Stats**
@@ -293,6 +272,7 @@ The industry selection effect becomes negative when the fund's weight in an indu
   - Performance incentive fee for a hedge fund对冲基金的绩效激励费
   - Fees are expressed in percentage费用以百分比表示
 
+---
 
 ## Performance Data表现数据
 - **Performance Data**
@@ -303,6 +283,7 @@ The industry selection effect becomes negative when the fund's weight in an indu
     - Fund companies
     - Fund data providers, such as Morningstar
 
+---
 
 ## Performance Analysis绩效分析
 - **Performance Analysis**

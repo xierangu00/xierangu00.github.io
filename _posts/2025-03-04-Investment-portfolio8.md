@@ -4,7 +4,7 @@ description: Course review for Spring course in MAF program at Emory.
 categories: [Course,Investment Portfolio]
 tags: [note]
 math: true
-date: 2025-03-02 22:06:00 -0500
+date: 2025-03-02 23:06:00 -0500
 # image:
 #   path:
 media_subpath: /assets/media
